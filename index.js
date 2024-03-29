@@ -29,3 +29,12 @@ function playRound() {
         console.log(`You lose ${computerSelection} beats ${playerSelection}`);
     }
 }
+
+function playGame() {
+    let counter = 1;
+
+    while (counter <= 5) {
+        playRound();
+        counter++;
+    }
+}

@@ -1,0 +1,19 @@
+*{
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#rock,
+#paper,
+#scissors{
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+}
